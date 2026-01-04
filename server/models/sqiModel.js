@@ -9,7 +9,7 @@ const generateReasons = (att, score) => {
     let reasons = [];
     if (!att.correct) reasons.push("Wrong answer");
     if (att.importance === 'A') reasons.push("High Importance (A)");
-    // Logic: if time < 70% of expected, it's rushed.
+  
     if (att.time_spent_sec < att.expected_time_sec * 0.7) reasons.push("Rushed answer");
     if (score > 0.8) reasons.push("High priority for review");
     return reasons;
