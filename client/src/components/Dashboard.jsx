@@ -284,9 +284,9 @@ const Dashboard = () => {
               }}
             >
               <ScienceIcon sx={{ fontSize: 80, color: '#e0e0e0', mb: 2 }} />
-              <Typography variant="h6" color="text.primary" gutterBottom>Ready to Compute</Typography>
+              <Typography variant="h6" color="text.primary" gutterBottom>Compute</Typography>
               <Typography variant="body2" sx={{ maxWidth: 300, mx: 'auto' }}>
-                Paste the student attempt JSON data on the left and click "Compute SQI".
+                Paste the student attempt JSON data.
               </Typography>
             </Paper>
           )}
